@@ -1,7 +1,6 @@
 const webpack = require('webpack');
 const { resolve } = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
 module.exports = {
 
   entry: [
@@ -54,8 +53,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template:'template.ejs',
       appMountId: 'react-app-root',
-      title: 'App Name Goes Here',
-      filename: resolve(__dirname,"build","index.html"),
+      title: 'React Help Queue',
+      filename: resolve(__dirname, "build", "index.html"),
     }),
   ]
 };
