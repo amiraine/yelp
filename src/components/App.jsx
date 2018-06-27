@@ -9,6 +9,10 @@ function App(){
           * {
             padding: 0;
             margin: 0;
+            font-family: 'Helvetica Neue';
+          }
+          *:focus{
+            outline: none;
           }
       `}</style>
       <Navbar />

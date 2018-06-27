@@ -4,22 +4,23 @@ function Navbar(){
   const navStyles = {
     display: 'flex',
     justifyContent: 'space-between',
-    height: '100px',
+    height: '72px',
     alignItems: 'center',
-    padding: '0 50px 0 50px'
+    padding: '0 50px 0 50px',
+    background: '#cf3034',
   }
   const links = {
-    <scope>
-      <style jsx>{.link { text-decoration: none;}}</style>
-    </scope>
+    textDecoration: 'none',
+    fontFamily: 'Helvetica Neue',
+    color: 'white'
   }
   return(
     <div style={navStyles}>
-      <Link to= '/' className={`link ${links.className}`}>Home</Link>
-    <Link to= '/browse' className={`link ${links.className}`}>Browse</Link>
-  <Link to= '/search' className={`link ${links.className}`}>Search</Link>
-<Link to='/signup' className={`link ${links.className}`}>Sign up</Link>
-      <Link to='/login' className={`link ${links.className}`}>Log in</Link>
+      <Link style={links} to= '/'>Home</Link>
+      <Link style={links} to= '/browse'>Browse</Link>
+      <Link style={links} to= '/search'>Search</Link>
+      <Link style={links} to='/signup'>Sign up</Link>
+      <Link style={links} to='/login'>Log in</Link>
     </div>
   );
 }
