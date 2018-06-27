@@ -4,6 +4,7 @@ function Hero(){
   const heroStyle = {
     background: 'url(http://www.asuntospublicos.org/upload/2018/05/02/spanish-vocabulary-to-use-at-the-restaurant-table-spanishnyc-restaurant-table-setting-pictures-l-572fe30f02921b1b.jpg)',
     backgroundSize: '100vw',
+    backgroundPosition: 'center',
     height: '50vh',
     display: 'flex',
     flexDirection: 'column',

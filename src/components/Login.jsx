@@ -1,12 +1,10 @@
 import React from 'react';
 
-
-function Browse(){
+function Login(){
 
   return(
     <div>
     </div>
   );
 }
-
-export default Browse;
+export default Login;
