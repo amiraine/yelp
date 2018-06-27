@@ -60,7 +60,8 @@ function Browse(){
   const grid = {
     display: 'grid',
     gridTemplateColumns: 'repeat(5, 1fr)',
-    margin: '0 5vw 0 5vw'
+    margin: '0 5vw 0 5vw',
+    gridGap: '5px'
   }
   return(
     <div>
